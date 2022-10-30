@@ -21,7 +21,7 @@ class Carro {
 }
 
 function main() {
-    const Corsa = new Carro('Chevrolet', 'Preto', 7);
+    const Corsa = new Carro('Chevrolet', 'Preto', 1/7);
     console.log(Corsa);
     Corsa.custoDoPercurso(50, 5.50);
 };
